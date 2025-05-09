@@ -1,5 +1,8 @@
 # nvjpeg-bug-report
 
+> [!CAUTION]
+> Thanks to the nvJPEG team, this bug has been fixed in CUDA 12.9.
+
 Demonstrates `nvjpegEncodeImage` failing with status code `NVJPEG_STATUS_EXECUTION_FAILED` when encoding RGB data (`NVJPEG_INPUT_RGB`) to a chroma-subsampled format (e.g. `NVJPEG_CSS_410`) for a specific size (e.g. 101x101).
 
 Tested with CUDA 12.2 driver version 535.113.01 on Ubuntu 22.04.02.
